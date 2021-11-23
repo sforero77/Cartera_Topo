@@ -1,12 +1,12 @@
 table {
     width: 100%;
-    border-collapse: collapse	
+    border-collapse: collapse;	
 }
  th, td {
     width: 10%;
     text-align: left;
     vertical-align: top;
-    border: 1px solid #000;
+    border: 2px solid #000;
     border-collapse: collapse;
     padding: 0.3em;
     caption-side: bottom;
