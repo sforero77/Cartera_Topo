@@ -1,67 +1,118 @@
 <link href="style.css" rel="stylesheet" type="text/css">
- <table border="1" class="dataframe">
+ <table border="1" class="dataframe dat1">
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>DELTA</th>
-      <th>HOR_E</th>
-      <th>HOR_CORR_E</th>
-      <th>VERT_E</th>
-      <th>AZM_E</th>
-      <th>DISTANCIA</th>
-      <th>COOR_PAR_X</th>
-      <th>COOR_PAR_Y</th>
-      <th>COMP_X</th>
-      <th>COMP_Y</th>
-      <th>COR_COMP_X</th>
-      <th>COR_COMP_Y</th>
+      <th>VERTICES</th>
+      <th>ANGULO HZ</th>
+      <th>ANGULO HZ CORREGIDO</th>
+      <th>ANGULO VERTICAL</th>
+      <th>ANGULO VERTICAL CORREGIDO</th>
+      <th>AZIMUT</th>
+      <th>DISTANCIA INCLINADA</th>
+      <th>DISTANCIA HORIZONTAL</th>
+      <th>PROY_X</th>
+      <th>PROY_Y</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>DELTA1-&gt;LIB1</td>
+      <td>22° 31' 25.0"</td>
+      <td>22° 31' 25.3333"</td>
+      <td>88° 39' 36.0"</td>
+      <td>88° 42' 51.7265"</td>
+      <td>106° 42' 13.4608"</td>
+      <td>61.35</td>
+      <td>61.334556</td>
+      <td>58.746208</td>
+      <td>-17.627177</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>LIB1-&gt;LIB2</td>
+      <td>120° 4' 19.0"</td>
+      <td>120° 4' 19.3333"</td>
+      <td>87° 2' 24.0"</td>
+      <td>87° 5' 39.9318"</td>
+      <td>46° 46' 32.7941"</td>
+      <td>38.72</td>
+      <td>38.670223</td>
+      <td>28.178022</td>
+      <td>26.484631</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>LIB2-&gt;DELTA1</td>
+      <td>37° 24' 15.0"</td>
+      <td>37° 24' 15.3333"</td>
+      <td>92° 53' 36.0"</td>
+      <td>92° 56' 51.9296"</td>
+      <td>264° 10' 48.1275"</td>
+      <td>87.49</td>
+      <td>87.374237</td>
+      <td>-86.924229</td>
+      <td>-8.857460</td>
+    </tr>
+  </tbody>
+</table><table border="1" class="dataframe dat2">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Punto</th>
+      <th>Norte</th>
+      <th>Este</th>
+      <th>Altura</th>
+      <th>Norte_c</th>
+      <th>Este_c</th>
+      <th>Altura_c</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
       <td>DELTA1</td>
-      <td>22° 31' 25.0"</td>
-      <td>22° 31' 25.3333"</td>
-      <td>88° 39' 36.0"</td>
-      <td>106° 42' 13.4608"</td>
-      <td>61.35</td>
-      <td>58.761259</td>
-      <td>-17.633403</td>
-      <td>0.020709</td>
-      <td>-0.004072</td>
-      <td>58.781968</td>
-      <td>-17.637474</td>
+      <td>90018.408000</td>
+      <td>96883.295000</td>
+      <td>2769.920000</td>
+      <td>90018.408000</td>
+      <td>96883.295000</td>
+      <td>2769.920000</td>
     </tr>
     <tr>
       <th>1</th>
       <td>LIB1</td>
-      <td>120° 4' 19.0"</td>
-      <td>120° 4' 19.3333"</td>
-      <td>87° 2' 24.0"</td>
-      <td>46° 46' 32.7941"</td>
-      <td>38.72</td>
-      <td>28.214457</td>
-      <td>26.517595</td>
-      <td>0.013070</td>
-      <td>-0.002570</td>
-      <td>28.227527</td>
-      <td>26.515025</td>
+      <td>90000.779036</td>
+      <td>96942.041467</td>
+      <td>2772.614687</td>
+      <td>90000.780823</td>
+      <td>96942.041208</td>
+      <td>2772.556487</td>
     </tr>
     <tr>
       <th>2</th>
       <td>LIB2</td>
-      <td>37° 24' 15.0"</td>
-      <td>37° 24' 15.3333"</td>
-      <td>92° 53' 36.0"</td>
-      <td>264° 10' 48.1275"</td>
-      <td>87.49</td>
-      <td>-87.039027</td>
-      <td>-8.871745</td>
-      <td>0.029532</td>
-      <td>-0.005806</td>
-      <td>-87.009495</td>
-      <td>-8.877551</td>
+      <td>90027.262541</td>
+      <td>96970.219652</td>
+      <td>2774.554140</td>
+      <td>90027.265455</td>
+      <td>96970.219230</td>
+      <td>2774.459208</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>DELTA1</td>
+      <td>90018.402535</td>
+      <td>96883.295792</td>
+      <td>2770.097931</td>
+      <td>90018.407995</td>
+      <td>96883.295001</td>
+      <td>2769.920000</td>
     </tr>
   </tbody>
-</table>
+</table><p>Error de cierre angular horizontal = 0° 0' 1.0"</p>
+<p>Distancia Total = 187.56</p>
+<p>Error en las proyecciones Norte = -0.0054648066930003125</p>
+<p>Error en las proyecciones Este = 0.000791636337652335</p>
+<p>Error lineal de cierre = 0.005521847542530726</p>
